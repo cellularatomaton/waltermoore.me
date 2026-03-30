@@ -10,36 +10,6 @@
         "slug": "joynt",
         "description": "I led the development of a dispensary e-commerce, kiosk, and TV menu platform, driving technical and product strategy using a modern tech stack. My leadership and strategic integrations positioned JoYnt as an industry leader and fueled ongoing growth and innovation."
     },{
-        "title": "Product Architect (Contract)",
-        "subtitle": "SKL Trading: London, UK",
-        "name": "SKL Trading",
-        "location": "London, UK",
-        "date": "Sept 2023 – Jan 2024",
-        "urls": ["https://www.sklventures.io"],
-        "image": "skl.svg",
-        "slug": "skl",
-        "description": "Rewrote market making platform with a modular design using ZeroMQ and Node TS. Implemented cryptocurency exchange connectivity and integrated Prometheus & Grafana metrics for improved insights. Led the development of a client UI with Redwood JS for liquidity management and analytics."
-    },{
-        "title": "Technology Consultant (Contract)",
-        "subtitle": "Cannabis Workforce Initiative: NY",
-        "name": "Cannabis Workforce Initiative",
-        "location": "NY",
-        "date": "Nov 2023 – Feb 2024",
-        "urls": ["https://cannabisworkforce.org"],
-        "image": "cwi.jpeg",
-        "slug": "cwi",
-        "description": "Implemented a large language model integration using the OpenAI Assistant API. Led the design and development of the Career Coach system delivered as a PHP wordpress plugin."
-    },{
-        "title": "Technical Leader, Product Strategist for SAAS",
-        "subtitle": "CHT: Chicago, IL",
-        "name": "CHT",
-        "location": "Chicago, IL",
-        "date": "2021 – 2023",
-        "urls": ["https://web.archive.org/web/20211022231247/https://www.cognitiveharmony.tech/solutions/accelerator"],
-        "image": "cht.png",
-        "slug": "cht",
-        "description": "Led the development of a B2B Cannabis Business License Application management and consulting platform delivered as a SAAS product.  This product successfully helped over 30 retail cannabis companies apply for conditional, conversion and annual license applications in the New Jersey market."
-    },{
         "title": "President & Business Strategist",
         "subtitle": "Perception Farms: Chicago, IL",
         "name": "Perception Farms",
@@ -69,6 +39,26 @@
         "image": "perception-gardens.png",
         "slug": "pgc",
         "description": "I led Perception Gardens in its founding, development, startup and operations."
+    },{
+        "title": "Product Architect (Contract)",
+        "subtitle": "SKL Trading: London, UK",
+        "name": "SKL Trading",
+        "location": "London, UK",
+        "date": "Sept 2023 – Jan 2024",
+        "urls": ["https://www.sklventures.io"],
+        "image": "skl.svg",
+        "slug": "skl",
+        "description": "Rewrote market making platform with a modular design using ZeroMQ and Node TS. Implemented cryptocurency exchange connectivity and integrated Prometheus & Grafana metrics for improved insights. Led the development of a client UI with Redwood JS for liquidity management and analytics."
+    },{
+        "title": "Technology Consultant (Contract)",
+        "subtitle": "Cannabis Workforce Initiative: NY",
+        "name": "Cannabis Workforce Initiative",
+        "location": "NY",
+        "date": "Nov 2023 – Feb 2024",
+        "urls": ["https://cannabisworkforce.org"],
+        "image": "cwi.jpeg",
+        "slug": "cwi",
+        "description": "Implemented a large language model integration using the OpenAI Assistant API. Led the design and development of the Career Coach system delivered as a PHP wordpress plugin."
     },{
         "title": "Director, Software Engineering",
         "subtitle": "Epsilon - Conversant: Chicago, IL",
