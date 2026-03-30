@@ -4,3 +4,4 @@ yarn.lock
 .pnp.*
 .vercel
 .env.local
+.DS_Store
