@@ -1,17 +1,20 @@
 ---
 layout: base.njk
-title: Portfolio - Walter Moore
+title: Walter Moore — Founder & Operator
 ---
 <!-- Hero Section -->
-<section id="hero" class="bg-gradient-to-t from-minimal-black to-minimal-primaryDark">
-  <div class="container mx-auto px-6 text-center text-minimal-secondaryLight h-screen flex flex-col justify-center items-center">
-    <h2 class="text-4xl font-bold mb-16">Bridging Technology and Business</h2>
-    <div class="w-full flex flex-row justify-center">
-      <img src="/img/pfp.png" alt="Your Bio Picture" class="mb-8 w-48 h-48 border-4 border-minimal-secondaryLight rounded-full shadow-lg">
+<section id="hero" class="bg-gradient-to-t from-minimal-black to-minimal-primaryDark py-24 lg:py-0 lg:min-h-screen flex items-center">
+  <div class="container mx-auto px-6 text-center text-minimal-secondaryLight flex flex-col items-center">
+    <img src="/img/pfp.png" alt="Walter Moore" class="mt-10 mb-6 w-48 h-48 border-4 border-minimal-secondaryLight rounded-full shadow-lg object-cover">
+    <h1 class="text-4xl lg:text-5xl font-extrabold mb-2">Walter Moore</h1>
+    <p class="text-xl lg:text-2xl font-bold mb-4">Founder & Operator</p>
+    <p class="max-w-lg text-base lg:text-lg mb-6">Building at the intersection of cannabis operations and cannabis technology.</p>
+    <div class="flex flex-row items-center gap-4 mb-8">
+      <a href="https://perceptionfarms.com" target="_blank" class="underline hover:text-minimal-primary">Perception Farms</a>
+      <span class="text-minimal-secondaryDark">|</span>
+      <a href="https://www.joyntshops.com" target="_blank" class="underline hover:text-minimal-primary">JoYnt</a>
     </div>
-    <h2 class="text-5xl font-extrabold mb-8">Walter Moore</h2>
-    <p class="w-full lg:w-1/3 text-xl font-bold mb-8">Entrepreneurial Engineer & Business Strategist. Leadership in SaaS, Innovation, & Client Solutions</p>
-    <a href="/contact" class="w-64 mt-6 border border-minimal-secondaryLight text-minimal-secondaryLight px-6 py-3 rounded-xl shadow hover:bg-gray-100">Let's Connect</a>
+    <a href="https://www.linkedin.com/in/waltermoore/" target="_blank" class="border border-minimal-secondaryLight text-minimal-secondaryLight px-8 py-3 rounded-xl shadow hover:bg-gray-100 hover:text-minimal-primaryDark">Let's Talk</a>
   </div>
 </section>
 
@@ -19,13 +22,40 @@ title: Portfolio - Walter Moore
 <section id="about" class="my-16">
   <div class="container mx-auto px-6">
     <h3 class="text-3xl font-bold text-center mb-8">About Me</h3>
-    
+
     <div class="mt-10 flex flex-col gap-4 w-full">
       <p class="mt-4 text-lg text-justify">
           {{about.introduction}}
       </p>
       <h3><span class="font-bold">LinkedIn: </span><a class="text-minimal-secondaryDark underline hover:text-minimal-primaryLight" href="{{about['linked-in-url']}}" target="_blank">{{about['linked-in-url']}}</a></h3>
       <h3><span class="font-bold">GitHub: </span><a class="text-minimal-secondaryDark underline hover:text-minimal-primaryLight" href="{{about['github-url']}}" target="_blank">{{about['github-url']}}</a></h3>
+    </div>
+  </div>
+</section>
+
+<!-- Ventures Section -->
+<section id="ventures" class="mb-16">
+  <div class="container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Current Ventures</h3>
+    <div class="grid gap-8 md:grid-cols-2">
+      <!-- Perception Farms -->
+      <a href="https://perceptionfarms.com" target="_blank" class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full hover:shadow-lg transition-shadow">
+        <div class="p-8 flex flex-col h-full">
+          <h4 class="text-2xl font-bold mb-4">Perception Farms</h4>
+          <p class="text-lg mb-4 flex-grow">Vertically integrated cannabis cultivation and retail across Illinois and Minnesota. Operating a dispensary in Chicago since 2024, now expanding with a cultivation facility and second retail location in Minnesota.</p>
+          <p class="text-base font-semibold text-minimal-secondary dark:text-minimal-primary">Currently raising capital for Minnesota expansion.</p>
+          <p class="mt-4 underline text-minimal-secondaryDark hover:text-minimal-primaryLight">perceptionfarms.com</p>
+        </div>
+      </a>
+      <!-- JoYnt -->
+      <a href="https://www.joyntshops.com" target="_blank" class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full hover:shadow-lg transition-shadow">
+        <div class="p-8 flex flex-col h-full">
+          <h4 class="text-2xl font-bold mb-4">JoYnt</h4>
+          <p class="text-lg mb-4 flex-grow">Cannabis industry SaaS platform delivering dispensary e-commerce, kiosk, and POS solutions. The first fully functional product built on the Treez headless e-commerce API, positioned for growth as new states legalize.</p>
+          <p class="text-base font-semibold text-minimal-secondary dark:text-minimal-primary">Powering the digital infrastructure of dispensary retail.</p>
+          <p class="mt-4 underline text-minimal-secondaryDark hover:text-minimal-primaryLight">joyntshops.com</p>
+        </div>
+      </a>
     </div>
   </div>
 </section>
@@ -37,7 +67,7 @@ title: Portfolio - Walter Moore
     <div class="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       <div class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full">
         <a href="/experience" class="flex flex-col">
-          <img src="/img/experience.webp" alt="Project Image" class=" w-full aspect-square object-cover object-top rounded-t-lg">
+          <img src="/img/experience.webp" alt="Experience" class=" w-full aspect-square object-cover object-top rounded-t-lg">
           <div class="grow shrink flex flex-col justify-between p-6">
             <div class="flex flex-row justify-center">
               <h4 class="text-xl font-bold mt-4">EXPERIENCE</h4>
@@ -47,7 +77,7 @@ title: Portfolio - Walter Moore
       </div>
       <div class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full">
         <a href="/portfolio" class="flex flex-col">
-          <img src="/img/project.webp" alt="Project Image" class=" w-full aspect-square object-cover object-top rounded-t-lg">
+          <img src="/img/project.webp" alt="Portfolio" class=" w-full aspect-square object-cover object-top rounded-t-lg">
           <div class="grow shrink flex flex-col justify-between p-6">
             <div class="flex flex-row justify-center">
               <h4 class="text-xl font-bold mt-4">PORTFOLIO</h4>
@@ -57,7 +87,7 @@ title: Portfolio - Walter Moore
       </div>
       <div class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full">
         <a href="/contact" class="flex flex-col">
-          <img src="/img/contact.webp" alt="Project Image" class=" w-full aspect-square object-cover object-top rounded-t-lg">
+          <img src="/img/contact.webp" alt="Contact" class=" w-full aspect-square object-cover object-top rounded-t-lg">
           <div class="grow shrink flex flex-col justify-between p-6">
             <div class="flex flex-row justify-center">
               <h4 class="text-xl font-bold mt-4">CONTACT</h4>
@@ -66,6 +96,13 @@ title: Portfolio - Walter Moore
         </a>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="technical-background" class="mb-16">
+  <div class="container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-6">Technical Foundation</h3>
+    <p class="text-lg text-center max-w-3xl mx-auto mb-4">Before founding these ventures, I spent 15 years building and shipping technology products across FinTech, AdTech, and MarTech. That technical depth drives JoYnt's product development and the operational systems behind Perception Farms.</p>
   </div>
 </section>
 
