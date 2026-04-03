@@ -1,15 +1,5 @@
 [
     {
-        "title": "Technical Leader and Product Strategist for SAAS",
-        "subtitle": "JoYnt: Chicago, IL",
-        "name": "JoYnt",
-        "location": "Chicago, IL",
-        "date": "2021 –  present",
-        "urls": ["https://www.joyntshops.com"],
-        "image": "joynt.png",
-        "slug": "joynt",
-        "description": "I led the development of a dispensary e-commerce, kiosk, and TV menu platform, driving technical and product strategy using a modern tech stack. My leadership and strategic integrations positioned JoYnt as an industry leader and fueled ongoing growth and innovation."
-    },{
         "title": "President & Business Strategist",
         "subtitle": "Perception Farms: Chicago, IL",
         "name": "Perception Farms",
@@ -19,6 +9,16 @@
         "image": "perception-farms.png",
         "slug": "pfi",
         "description": "I led the growth of a vertically integrated cannabis business, managing product development, compliance, and operations. I drove business growth through strategic partnerships, while ensuring regulatory compliance and operational efficiency."
+    },{
+        "title": "Technical Leader and Product Strategist for SAAS",
+        "subtitle": "JoYnt: Chicago, IL",
+        "name": "JoYnt",
+        "location": "Chicago, IL",
+        "date": "2021 –  present",
+        "urls": ["https://www.joyntshops.com"],
+        "image": "joynt.png",
+        "slug": "joynt",
+        "description": "I led the development of a dispensary e-commerce, kiosk, and TV menu platform, driving technical and product strategy using a modern tech stack. My leadership and strategic integrations positioned JoYnt as an industry leader and fueled ongoing growth and innovation."
     },{
         "title": "COO & Technical Lead",
         "subtitle": "Perception Cannabis: Chicago, IL",

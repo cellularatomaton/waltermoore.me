@@ -168,7 +168,7 @@
         "details": "Cryptfolio is a Node.js tool designed to calculate market cap weighted portfolios using data from the CoinMarketCap API. The tool allows users to input portfolio size (number of coins) and a USD-denominated notional value, and it returns a portfolio with allocations based on market capitalization. It supports customizations such as including or excluding specific cryptocurrencies and offers output in either CLI or markdown format. The project consists of two main components: a server for processing the portfolio logic and a client for displaying the results. The server connects to the CoinMarketCap API, retrieves market cap data, and calculates the portfolio weights accordingly. It then broadcasts the results to the client, which can be used to view the portfolio breakdown, including the market cap percentage and the amount of each cryptocurrency to hold. The tool also allows for flexibility in portfolio customization, such as selecting specific coins to include or exclude from the portfolio. To get started, users can install the dependencies, set up their environment variables, and run the server and client locally. Cryptfolio is useful for those looking to build a market cap weighted portfolio based on a set investment amount and is customizable to fit individual needs."
     },{
         "project-slug": "lottery-simulation",
-        "company-slug": "cht",
+        "company-slug": "joynt",
         "title": "Cannabis License Lottery Simulation",
         "image": "lottery-1.webp",
         "urls": ["https://github.com/cognitive-harmony-technologies/lottery-simulation"],
@@ -179,7 +179,7 @@
         "details": "The Illinois Dispensary Tie Breaker Lottery Simulator is a tool developed by Cognitive Harmony Technologies in collaboration with Perception Farms, Inc., designed to simulate the Illinois dispensary license tie-breaker process. This simulator allows users to determine their probability of winning a license based on various parameters such as the number of simulations, application density, and the number of additional participants. The tool is aimed at helping applicants understand their chances and at raising awareness among legislators about the unfairness of unlimited applications per entity. Users can run simulations with custom input values, such as their company name and the number of applications they have submitted, and view the results to gauge their standing against other participants. The simulator is run via the command line using node.js and outputs the results in a detailed format that shows the odds for each participant, making it an invaluable resource for both applicants and policymakers concerned with the fairness of the lottery process."
     },{
         "project-slug": "equiseed",
-        "company-slug": "cht",
+        "company-slug": "joynt",
         "title": "Crypto Funding Whitepaper",
         "image": "equiseed-1.webp",
         "urls": ["https://github.com/cognitive-harmony-technologies/EquiSeed/blob/master/CHT_EquiSeed.pdf"],
