@@ -1,6 +1,6 @@
 [
     {
-        "title": "President & Business Strategist",
+        "title": "Co-Founder & President",
         "subtitle": "Perception Farms: Chicago, IL",
         "name": "Perception Farms",
         "location": "Chicago, IL",
@@ -8,9 +8,9 @@
         "urls": ["https://www.perceptionfarms.com"],
         "image": "perception-farms.png",
         "slug": "pfi",
-        "description": "I led the growth of a vertically integrated cannabis business, managing product development, compliance, and operations. I drove business growth through strategic partnerships, while ensuring regulatory compliance and operational efficiency."
+        "description": "Perception Farms is a licensed, vertically integrating cannabis operator: a Chicago dispensary (Rogers Park, operating since 2024), a Minnesota Mezzobusiness license, a 15,000 sq ft cultivation build in Winona, and a flagship store planned in St. Paul. I own licensing, regulatory compliance, and technology across two state regimes, structured early-stage financing in an industry excluded from bank and SBA lending, and built the tracking and reporting systems behind state compliance. The group includes Perception Cannabis (the Chicago dispensary) and Perception Gardens (craft cultivation)."
     },{
-        "title": "Technical Leader and Product Strategist for SAAS",
+        "title": "Co-Founder, CEO & CTO",
         "subtitle": "JoYnt: Chicago, IL",
         "name": "JoYnt",
         "location": "Chicago, IL",
@@ -18,27 +18,7 @@
         "urls": ["https://www.joyntshops.com"],
         "image": "joynt.png",
         "slug": "joynt",
-        "description": "I led the development of a dispensary e-commerce, kiosk, and TV menu platform, driving technical and product strategy using a modern tech stack. My leadership and strategic integrations positioned JoYnt as an industry leader and fueled ongoing growth and innovation."
-    },{
-        "title": "COO & Technical Lead",
-        "subtitle": "Perception Cannabis: Chicago, IL",
-        "name": "Perception Cannabis",
-        "location": "Chicago, IL",
-        "date": "2019 –  present",
-        "urls": ["https://www.perceptioncannabis.com"],
-        "image": "perception-cannabis.png",
-        "slug": "pccs",
-        "description": "I led Perception Cannabis in its founding, development, startup and operations.  As COO I have leveraged my technical background to automate much of our operations, streamlining processes and maximizing profit margins."
-    },{
-        "title": "President & Technical Lead",
-        "subtitle": "Perception Gardens: Chicago, IL",
-        "name": "Perception Gardens",
-        "location": "Chicago, IL",
-        "date": "2020 –  present",
-        "urls": [],
-        "image": "perception-gardens.png",
-        "slug": "pgc",
-        "description": "I led Perception Gardens in its founding, development, startup and operations."
+        "description": "Retail SaaS for state-licensed, highly regulated markets: e-commerce, kiosk, digital signage, and a next-generation store operating platform. I run product and engineering end to end, with AI developer agents as the build team. I created Foundry, an open-source GitHub Action that turns issues into verified pull requests with human-gated merges and a full audit trail, and built the first production integration on the Treez headless e-commerce API."
     },{
         "title": "Product Architect (Contract)",
         "subtitle": "SKL Trading: London, UK",
@@ -68,7 +48,7 @@
         "urls": ["https://www.conversant.com"],
         "image": "conversant.png",
         "slug": "conversant",
-        "description": "As Managing Director of the Ad Server API Team, I led the design, development, testing, and deployment of server-side and client-side components for Conversant's RTB, CRM, and DMP platforms, ensuring scalability across global data centers. "
+        "description": "Led the Ad Server API team responsible for the Java server-side and JavaScript client-side components of Epsilon's real-time bidding, CRM, and DMP platforms. Owned design, delivery, and global rollout of components running on hundreds to thousands of bare-metal nodes across data centers worldwide, and set the coding standards, review practices, and QA gates for a system where every change shipped at web scale."
     },{
         "title": "Chief Architect",
         "subtitle": "Nuvatek: Chicago, IL",
@@ -80,7 +60,7 @@
         "slug": "guavatech",
         "description": "As Chief Architect and Lead Developer, I optimized and extended high-frequency trading systems using Java, Python, and C++. I also led the design and deployment of a custom market analytics suite and integrated disparate systems using RabbitMQ. Additionally, I  improved low-latency message deduplication software."
     },{
-        "title": "Director of Software Development & Financial Engineering",
+        "title": "Head of Transactional Data Exchange",
         "subtitle": "INTL FCStone Inc: Chicago, IL",
         "name": "INTL FCStone",
         "location": "Chicago, IL",
@@ -88,7 +68,7 @@
         "urls": ["https://www.stonex.com"],
         "image": "stonex.png",
         "slug": "stonex",
-        "description": "I led the development of transaction data routing, monitoring, reconciliation, and reporting solutions using RabbitMQ, MongoDB, and C#. I also produced extensive technical and business documentation, including API references and business case proposals, to support internal and external stakeholders. I oversaw all software development and financial engineering for HFT solutions at Hanley Group Capital for 3 years prior to being acquired by INTL FCStone."
+        "description": "Led development of the firm-wide liquidity routing, monitoring, reconciliation, and Dodd-Frank large-trader reporting layer (C#, RabbitMQ, MongoDB; FIX, FpML, JSON), packaged as shared APIs adopted across INTL business units so they could integrate third parties quickly as regulatory requirements changed. Produced the API and UML reference documentation for engineers and the business cases for decision makers. Previously oversaw software development and financial engineering for HFT at Hanley Group Capital for three years before its acquisition by INTL FCStone."
     },{
         "title": "Director Of Software Development",
         "subtitle": "Hanley Group: Chicago, IL",

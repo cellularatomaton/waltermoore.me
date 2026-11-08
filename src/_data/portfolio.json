@@ -1,14 +1,14 @@
 [
     {
-        "project-slug": "portfolio-site",
-        "company-slug": "waltermoore",
-        "title": "Static Portfolio Site",
-        "image": "portfolio-site-1.webp",
-        "urls": ["waltermoore.me"],
-        "skills": ["Technical Writing", "Engineering", "UX", "Technical Writing", "Documentation"],
-        "tools": ["Eleventy", "Vercel", "Github Actions", "SendGrid"],
-        "languages": ["HTML", "Javascript"],
-        "description": "Welcome to waltermoore.me, a sleek and modern portfolio site built with 11ty and styled with Tailwind CSS, showcasing Walter Moore's journey from software engineering to technical sales and consulting. Deployed on Vercel for fast and reliable performance, the site highlights Walter's expertise, impactful projects, and professional philosophy with a clean, responsive design. Explore a dynamic timeline, portfolio of work, and insights into how Walter bridges technology and business to drive meaningful results."
+        "project-slug": "foundry",
+        "company-slug": "joynt",
+        "title": "Foundry: Governance for AI Coding Agents",
+        "image": "foundry-1.png",
+        "urls": ["https://github.com/joyntshops/foundry", "https://github.com/joyntshops/foundry-demo", "https://www.npmjs.com/package/@joynt/foundry"],
+        "skills": ["AI Agents", "Engineering", "Dev Ops", "Compliance", "Technical Writing", "Documentation"],
+        "tools": ["Github Actions", "Claude Code", "Node", "Git"],
+        "languages": ["Typescript"],
+        "description": "Foundry is an open-source GitHub Action that turns a GitHub issue into a verified pull request. Comment \"@foundry go\" and Foundry claims the issue, runs a coding agent (Claude Code, aider, or any CLI) in an isolated git worktree, gates on the repository's lint, typecheck, build, and test commands, opens a PR, and stands up a preview. Humans review and approve; Foundry rebases, waits for CI, and merges. It runs JoYnt's agent-driven development and is MIT licensed."
     },{
         "project-slug": "joynt-platform",
         "company-slug": "joynt",
@@ -19,35 +19,32 @@
         "tools": ["React Native", "React", "NextJs", "Expo", "Vercel", "Github Actions", "DNS"],
         "languages": ["Typescript", "Javascript", "HTML"],
         "description": "The JoYnt platform is a comprehensive solution for dispensary e-commerce, in-store kiosks, and digital signage, enabling seamless management of online sales, inventory, and customer orders. It integrates with point-of-sale systems like Treez for real-time tracking and regulatory compliance. With a scalable, user-friendly design, JoYnt empowers dispensary operators to adapt quickly to market changes and drive growth in the cannabis retail space."
-    },
-    {
+    },{
         "project-slug": "dispensary",
-        "company-slug": "pccs",
+        "company-slug": "pfi",
         "title": "Licensed Cannabis Dispensary",
         "image": "dispensary-1.webp",
-        "urls": ["https://www.perceptionfarms.com","https://www.perceptioncannabis.com"],
+        "urls": ["https://www.perceptionfarms.com", "https://www.perceptioncannabis.com"],
         "skills": ["Startup", "Corporate Admin", "Fundraising", "Operations", "Technical Writing", "Compliance"],
         "tools": ["Google Workspace", "Adobe Suite", "DNS"],
         "languages": [],
         "description": "The project involved leading the development and growth of a vertically integrated cannabis business, with a focus on product development, regulatory compliance, and operational efficiency in a highly regulated industry. I directed business strategy, customer relationship management, and the integration of advanced POS systems, ensuring scalability and compliance with state and federal regulations. By fostering key partnerships and spearheading innovation, I successfully drove revenue growth while adapting to evolving market conditions."
-    },
-    {
+    },{
         "project-slug": "craft-grow",
-        "company-slug": "pgc",
+        "company-slug": "pfi",
         "title": "Craft Grower",
         "image": "perception-gardens-1.webp",
-        "urls": ["https://www.perceptionfarms.com","https://www.perceptioncannabis.com"],
+        "urls": ["https://www.perceptionfarms.com", "https://www.perceptioncannabis.com"],
         "skills": ["Startup", "Corporate Admin", "Fundraising", "Operations", "Technical Writing", "Compliance"],
         "tools": ["Google Workspace", "Adobe Suite", "DNS"],
         "languages": [],
         "description": "The project involved leading the development and growth of a vertically integrated cannabis business, with a focus on product development, regulatory compliance, and operational efficiency in a highly regulated industry. I directed business strategy, customer relationship management, and the integration of advanced POS systems, ensuring scalability and compliance with state and federal regulations. By fostering key partnerships and spearheading innovation, I successfully drove revenue growth while adapting to evolving market conditions."
-    },
-    {
+    },{
         "project-slug": "holding-company",
         "company-slug": "pfi",
         "title": "Vertically Integrated Cannabis Brand",
         "image": "holding-company-1.webp",
-        "urls": ["https://www.perceptionfarms.com","https://www.perceptioncannabis.com"],
+        "urls": ["https://www.perceptionfarms.com", "https://www.perceptioncannabis.com"],
         "skills": ["Startup", "Corporate Admin", "Fundraising", "Operations", "Technical Writing", "Compliance"],
         "tools": ["Google Workspace", "Adobe Suite", "DNS", "Wix"],
         "languages": [],
@@ -83,7 +80,7 @@
         "tools": ["Linux", "Docker", "Elastic Search", "Logstash", "Kabana", "OpenAPI"],
         "languages": ["Java", "Javascript", "HTML"],
         "description": "The project involved leading the design, development, testing, and deployment of Java server-side and JS client-side components for Conversant's RTB, CRM, and DMP platforms, operating at global scale. I was responsible for ensuring seamless deployments across hundreds to thousands of data center nodes, managing large-scale data processing, and maintaining high-performance solutions. Additionally, I led technical documentation efforts, including creating the OpenAPI Swagger server for API references, ensuring clear communication and system reliability across the organization.",
-        "details": "The Conversant RTB, CRM, and DMP platforms are designed to manage large-scale data processing for digital advertising, handling massive volumes of real-time data across a global infrastructure. The platforms provide real-time bidding (RTB), customer relationship management (CRM), and data management platform (DMP) services, allowing clients to target and analyze audiences at scale. The project involved the design and development of Java server-side components and JS client-side components, which were implemented across numerous global data centers, handling hundreds to thousands of bare metal nodes. With an emphasis on scalability and performance, the platform was built to handle big data challenges, ensuring seamless deployment, high throughput, and low-latency processing. A key part of the project was developing and deploying the OpenAPI Swagger server, which hosted internal API reference documentation, facilitating smooth collaboration between technical teams. My Role: As Managing Director of the Ad Server API Team, I led the design, development, testing, and deployment of core components for the Conversant RTB, CRM, and DMP platforms. I guided my team through the creation of Java server-side components and JS client-side components, ensuring they were optimized for global scalability and integration with the platform’s overall architecture. I oversaw the development process to ensure adherence to best practices and quality assurance standards, focusing on optimizing data processing pipelines and achieving high performance across millions of data points. I also played a pivotal role in coordinating the deployment of these components across global data centers, ensuring efficient use of infrastructure and the scalability necessary to meet the growing demands of the platform. In addition to my technical leadership, I developed extensive documentation, including API reference guides using OpenAPI Swagger and detailed narrative and technical guides in Confluence, ensuring clarity and consistency across internal teams. This experience equipped me with a deep understanding of distributed systems, large-scale deployments, and big data challenges, all while ensuring the platform remained reliable, performant, and scalable to meet the needs of a fast-paced digital advertising industry."
+        "details": "The Conversant RTB, CRM, and DMP platforms are designed to manage large-scale data processing for digital advertising, handling massive volumes of real-time data across a global infrastructure. The platforms provide real-time bidding (RTB), customer relationship management (CRM), and data management platform (DMP) services, allowing clients to target and analyze audiences at scale. The project involved the design and development of Java server-side components and JS client-side components, which were implemented across numerous global data centers, handling hundreds to thousands of bare metal nodes. With an emphasis on scalability and performance, the platform was built to handle big data challenges, ensuring seamless deployment, high throughput, and low-latency processing. A key part of the project was developing and deploying the OpenAPI Swagger server, which hosted internal API reference documentation, facilitating smooth collaboration between technical teams. My Role: As Director of Software Engineering for the Ad Server API Team, I led the design, development, testing, and deployment of core components for the Conversant RTB, CRM, and DMP platforms. I guided my team through the creation of Java server-side components and JS client-side components, ensuring they were optimized for global scalability and integration with the platform’s overall architecture. I oversaw the development process to ensure adherence to best practices and quality assurance standards, focusing on optimizing data processing pipelines and achieving high performance across millions of data points. I also played a pivotal role in coordinating the deployment of these components across global data centers, ensuring efficient use of infrastructure and the scalability necessary to meet the growing demands of the platform. In addition to my technical leadership, I developed extensive documentation, including API reference guides using OpenAPI Swagger and detailed narrative and technical guides in Confluence, ensuring clarity and consistency across internal teams. This experience equipped me with a deep understanding of distributed systems, large-scale deployments, and big data challenges, all while ensuring the platform remained reliable, performant, and scalable to meet the needs of a fast-paced digital advertising industry."
     },{
         "project-slug": "artemis",
         "company-slug": "guavatech",
@@ -134,7 +131,7 @@
         "skills": ["Financial Modeling", "Compliance", "Engineering", "Trading", "Options Pricing"],
         "tools": [".Net", "RabbitMQ", "MongoDB"],
         "languages": ["C#", "UML"],
-        "description": "The project involved developing and delivering liquidity routing, monitoring, reconciliation, and reporting solutions at INTL FCStone, using a RabbitMQ, MongoDB, and C#-based communication layer to integrate with various third-party middleware solutions. I also contributed significantly to technical writing, creating API and UML documentation for internal teams and business case proposals for decision-makers."
+        "description": "The project involved developing and delivering liquidity routing, monitoring, reconciliation, and Dodd-Frank large-trader reporting solutions at INTL FCStone, using a RabbitMQ, MongoDB, and C#-based communication layer to integrate with various third-party middleware solutions. I also contributed significantly to technical writing, creating API and UML documentation for internal teams and business case proposals for decision-makers."
     },{
         "project-slug": "hanley-trading-platform",
         "company-slug": "hgc",
@@ -160,7 +157,7 @@
         "company-slug": "waltermoore",
         "title": "Market Cap Weighted Portfolio Calculator",
         "image": "cryptfolio-1.webp",
-        "urls": ["https://github.com/cellularatomaton/cryptfolio/blob/master/README_CLI.md","https://github.com/cellularatomaton/cryptfolio/blob/master/README_BT.md"],
+        "urls": ["https://github.com/cellularatomaton/cryptfolio/blob/master/README_CLI.md", "https://github.com/cellularatomaton/cryptfolio/blob/master/README_BT.md"],
         "skills": ["Engineering"],
         "tools": ["Node"],
         "languages": ["Javascript"],
@@ -193,13 +190,12 @@
         "company-slug": "waltermoore",
         "title": "Cross Exchange Triangle Arbitrage",
         "image": "arbmageddon-1.webp",
-        "urls": ["https://github.com/cellularatomaton/arbmageddon/blob/master/README.md","https://www.loom.com/share/311ce3f6707c45cb9082277617d7d952"],
+        "urls": ["https://github.com/cellularatomaton/arbmageddon/blob/master/README.md", "https://www.loom.com/share/311ce3f6707c45cb9082277617d7d952"],
         "skills": ["Engineering", "Cryptocurrency"],
         "tools": ["Node", "ExpressJs", "Axios", "VueJs", "Lodash", "Websocket", "Winston", "Webpack"],
         "languages": ["Typescript", "HTML"],
         "description": "ArbMageddon is a cryptocurrency arbitrage toolset built with Node.js, designed to facilitate arbitrage trading across multiple exchanges. The project is structured into three main components: a common module for models, strategies, and pricing logic; a server module that uses Express to host an asset graph and provide WebSocket or HTTP connections; and a single-page application (SPA) for user interaction with the system. This tool enables users to access real-time arbitrage opportunities by connecting to various exchanges, with a backend server managing the asset graph and a frontend UI for visualizing and executing trades.",
         "details": "ArbMageddon is a cryptocurrency arbitrage toolset built using Node.js, designed to identify and exploit arbitrage opportunities across multiple cryptocurrency exchanges. The project is divided into three main components: the common module, the server, and the single-page application (SPA). The common module contains the core functionality of the system, including models, trading strategies, exchange integrations, and pricing logic, which are shared across the other components. This module forms the backbone of the toolset, ensuring that all exchanges and trading strategies are consistently managed and executed. The server component, which runs on an Express server, hosts an instance of the asset graph built from the common module, and facilitates communication with the user interface through WebSocket or HTTP endpoints. This setup allows for real-time updates and synchronization between the backend and frontend components.\nThe backend server is responsible for managing the connections to various cryptocurrency exchanges, ensuring that the system is always up-to-date with the latest market data. By connecting to these exchanges, the server builds the asset graph, which represents the arbitrage opportunities available across multiple platforms. The server component is highly modular, enabling it to integrate with a variety of exchanges, and is designed to handle high-frequency trading scenarios with minimal latency. It also provides HTTP and WebSocket endpoints for communication, enabling real-time data flow to the user interface. To launch the server, users must install dependencies and run the server with debugging enabled, ensuring a smooth setup and operation for arbitrage activities.\nThe frontend is built as a single-page application (SPA) using modern JavaScript frameworks, providing a user-friendly interface for interacting with the system. The SPA allows users to visualize the asset graph and manage their trades, displaying real-time arbitrage opportunities, and offering features such as hot-reloading during development and production-level minification for efficient deployment. The setup for the SPA is straightforward, involving the installation of dependencies and running the application locally. The SPA communicates with the backend via WebSocket or HTTP, providing seamless interaction with the arbitrage toolset. ArbMageddon offers a comprehensive solution for cryptocurrency traders looking to take advantage of price discrepancies between exchanges, making it easier to automate and execute arbitrage strategies with minimal manual intervention."
-
     },{
         "project-slug": "cli-stacker",
         "company-slug": "waltermoore",
@@ -211,6 +207,15 @@
         "languages": ["Javascript"],
         "description": "The CLI Stacker is a cryptocurrency trading tool that facilitates market making on the Bittrex exchange. The cli tool is designed to place buy and sell orders at various price levels based on a set of configurable parameters, such as order size, price precision, and stacking levels. It allows users to manage and track open orders, adjust bids and asks, cancel orders, and restock orders across different price levels, all through a command-line interface with real-time execution.",
         "details": "The **ArbMageddon StackerBot** is a cryptocurrency market-making bot designed to automate the process of placing and managing buy and sell orders across different price levels on the Bittrex exchange. The bot interacts with the Bittrex API to fetch real-time order book data and execute trades based on predefined parameters such as order size, price precision, and market conditions. It supports functions like stacking bids and asks at multiple levels, canceling open orders, and restocking orders at specified price points to ensure liquidity in the market. Users can customize the bot's behavior to stack buy and sell orders with adjustable levels, cancel orders when necessary, and ensure that new orders are placed based on the most up-to-date market data. The bot also provides real-time monitoring of the order book and market conditions, allowing for dynamic adjustment of trades. Advanced features include automated market making, where the bot continuously adjusts bids and asks to maintain a balance between buy and sell orders, enhancing liquidity and maximizing potential trading opportunities. The bot’s functionality is flexible, enabling users to tailor its behavior to suit various trading strategies and market conditions."
+    },{
+        "project-slug": "portfolio-site",
+        "company-slug": "waltermoore",
+        "title": "Static Portfolio Site",
+        "image": "portfolio-site-1.webp",
+        "urls": ["waltermoore.me"],
+        "skills": ["Technical Writing", "Engineering", "UX", "Technical Writing", "Documentation"],
+        "tools": ["Eleventy", "Vercel", "Github Actions", "SendGrid"],
+        "languages": ["HTML", "Javascript"],
+        "description": "Welcome to waltermoore.me, a sleek and modern portfolio site built with 11ty and styled with Tailwind CSS, showcasing Walter Moore's journey from software engineer to engineering director to founder. Deployed on Vercel for fast and reliable performance, the site highlights Walter's expertise, impactful projects, and professional philosophy with a clean, responsive design. Explore a dynamic timeline, portfolio of work, and insights into how Walter bridges technology and business to drive meaningful results."
     }
-
 ]

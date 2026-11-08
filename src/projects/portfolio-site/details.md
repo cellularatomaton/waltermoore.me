@@ -1,6 +1,6 @@
 ## About the Project
 
-**[WalterMoore.me](https://waltermoore.me)** is my professional portfolio site, designed to highlight my expertise and career journey. It reflects my transition from a seasoned software engineer to a technical sales and consulting professional. The site serves as a testament to my technical skills, strategic thinking, and ability to bridge the gap between engineering and business solutions.
+**[WalterMoore.me](https://waltermoore.me)** is my professional portfolio site, designed to highlight my expertise and career journey. It covers my path from software engineer to engineering director to founder. The site serves as a testament to my technical skills, strategic thinking, and ability to bridge the gap between engineering and business solutions.
 
 Built using **11ty (Eleventy)**, a highly customizable static site generator, and styled with **Tailwind CSS**, the site exemplifies modern web development practices. Hosted on **Vercel**, it utilizes serverless architecture to deliver exceptional performance, reliability, and scalability.
 
@@ -14,7 +14,7 @@ Built using **11ty (Eleventy)**, a highly customizable static site generator, an
 
 ### 2. **Dynamic Timeline**
 - An engaging visual timeline that showcases key milestones in my career.
-- Highlights my growth and transition into technical sales and consulting roles.
+- Highlights my growth from engineer to engineering leader and founder.
 - Effectively demonstrates the evolution of my projects and expertise over time.
 
 ### 3. **Interactive Portfolio**
@@ -55,7 +55,7 @@ Built using **11ty (Eleventy)**, a highly customizable static site generator, an
 
 ### **Problem-Solving and Transition**
 - Demonstrates the ability to synthesize technical skills with business acumen.
-- Highlights a successful career shift into technical sales and consulting.
+- Presents my current focus: engineering leadership and governed, AI-driven software delivery.
 
 ---
 
@@ -63,7 +63,7 @@ Built using **11ty (Eleventy)**, a highly customizable static site generator, an
 
 The primary purpose of **WalterMoore.me** is to present my professional journey in a way that resonates with both technical and business audiences. Key objectives include:
 
-- **Showcasing Career Evolution**: Highlighting my transition from engineering to consulting and technical sales.
+- **Showcasing Career Evolution**: Highlighting my path from engineer to engineering director to founder.
 - **Demonstrating Versatility**: Showcasing the breadth of my technical, design, and strategic skills.
 - **Curating a Personal Brand**: Aligning my online presence with my career aspirations and goals in consulting and sales.
 

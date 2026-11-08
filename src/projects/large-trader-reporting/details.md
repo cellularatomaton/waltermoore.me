@@ -1,7 +1,7 @@
 # Large Trader Reporting Project
 
 ## Project Description
-The **Large Trader Reporting Project** involved the development and delivery of liquidity routing, monitoring, reconciliation, and reporting solutions for **INTL FCStone**'s transactional data exchange platform. The platform was designed to handle large volumes of financial data with a focus on seamless integration and compliance in a highly regulated environment.
+The **Large Trader Reporting Project** involved the development and delivery of liquidity routing, monitoring, reconciliation, and **Dodd-Frank large-trader reporting** solutions for **INTL FCStone**'s transactional data exchange platform. The platform was designed to handle large volumes of financial data with a focus on seamless integration and compliance in a highly regulated environment.
 
 ### Key Features:
 - **Communication Layer**: Built with **RabbitMQ**, **MongoDB**, and **C#**, supporting JSON, FIX, and FPML protocols.

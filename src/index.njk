@@ -1,19 +1,22 @@
 ---
 layout: base.njk
-title: Walter Moore — Founder & Operator
+title: Walter Moore — Engineering Leader & Fractional CTO
 ---
 <!-- Hero Section -->
 <section id="hero" class="bg-gradient-to-t from-minimal-black to-minimal-primaryDark py-24 lg:py-0 lg:min-h-screen flex items-center">
   <div class="container mx-auto px-6 text-center text-minimal-secondaryLight flex flex-col items-center">
     <img src="/img/pfp.png" alt="Walter Moore" class="mt-10 mb-6 w-48 h-48 border-4 border-minimal-secondaryLight rounded-full shadow-lg object-cover">
     <h1 class="text-4xl lg:text-5xl font-extrabold mb-2">Walter Moore</h1>
-    <p class="text-xl lg:text-2xl font-bold mb-4">Founder & Operator</p>
-    <p class="max-w-lg text-base lg:text-lg mb-6">Building at the intersection of cannabis operations and cannabis technology.</p>
+    <p class="text-xl lg:text-2xl font-bold mb-4">Engineering Leader & Fractional CTO</p>
+    <p class="max-w-lg text-base lg:text-lg mb-6">I run a SaaS company's engineering with a team of AI developer agents, and I built the system that keeps them under control.</p>
     <div class="flex flex-row items-center gap-4 mb-8">
-      <a href="https://perceptionfarms.com" target="_blank" class="underline hover:text-minimal-primary">Perception Farms</a>
+      <a href="https://github.com/joyntshops/foundry" target="_blank" class="underline hover:text-minimal-primary">Foundry</a>
       <span class="text-minimal-secondaryDark">|</span>
       <a href="https://www.joyntshops.com" target="_blank" class="underline hover:text-minimal-primary">JoYnt</a>
+      <span class="text-minimal-secondaryDark">|</span>
+      <a href="https://perceptionfarms.com" target="_blank" class="underline hover:text-minimal-primary">Perception Farms</a>
     </div>
+    <p class="max-w-lg text-sm lg:text-base mb-8 text-minimal-secondaryDark">Open to remote leadership roles: part-time, fractional, or full-time.</p>
     <a href="https://www.linkedin.com/in/waltermoore/" target="_blank" class="border border-minimal-secondaryLight text-minimal-secondaryLight px-8 py-3 rounded-xl shadow hover:bg-gray-100 hover:text-minimal-primaryDark">Let's Talk</a>
   </div>
 </section>
@@ -24,9 +27,9 @@ title: Walter Moore — Founder & Operator
     <h3 class="text-3xl font-bold text-center mb-8">About Me</h3>
 
     <div class="mt-10 flex flex-col gap-4 w-full">
-      <p class="mt-4 text-lg text-justify">
-          {{about.introduction}}
-      </p>
+      {% for para in about.introduction.split('\n') %}
+      <p class="text-lg">{{ para }}</p>
+      {% endfor %}
       <h3><span class="font-bold">LinkedIn: </span><a class="text-minimal-secondaryDark underline hover:text-minimal-primaryLight" href="{{about['linked-in-url']}}" target="_blank">{{about['linked-in-url']}}</a></h3>
       <h3><span class="font-bold">GitHub: </span><a class="text-minimal-secondaryDark underline hover:text-minimal-primaryLight" href="{{about['github-url']}}" target="_blank">{{about['github-url']}}</a></h3>
     </div>
@@ -36,28 +39,37 @@ title: Walter Moore — Founder & Operator
 <!-- Ventures Section -->
 <section id="ventures" class="mb-16">
   <div class="container mx-auto px-6">
-    <h3 class="text-3xl font-bold text-center mb-10">Current Ventures</h3>
-    <div class="grid gap-8 md:grid-cols-2">
-      <!-- Perception Farms -->
-      <a href="https://perceptionfarms.com" target="_blank" class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full hover:shadow-lg transition-shadow">
+    <h3 class="text-3xl font-bold text-center mb-10">Current Work</h3>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Foundry -->
+      <a href="https://github.com/joyntshops/foundry" target="_blank" class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full hover:shadow-lg transition-shadow">
         <div class="p-8 flex flex-col h-full">
-          <h4 class="text-2xl font-bold mb-4">Perception Farms</h4>
-          <p class="text-lg mb-4 flex-grow">Vertically integrated cannabis cultivation and retail across Illinois and Minnesota. Operating a dispensary in Chicago since 2024, now expanding with a cultivation facility and second retail location in Minnesota.</p>
-          <p class="text-base font-semibold text-minimal-secondary dark:text-minimal-primary">Currently raising capital for Minnesota expansion.</p>
-          <p class="mt-4 underline text-minimal-secondaryDark hover:text-minimal-primaryLight">perceptionfarms.com</p>
+          <h4 class="text-2xl font-bold mb-4">Foundry</h4>
+          <p class="text-lg mb-4 flex-grow">Open-source GitHub Action that turns an issue into a verified pull request. A coding agent works in an isolated branch, Foundry gates on lint, typecheck, build, and tests, and merging always stays a human decision, with every step recorded on GitHub.</p>
+          <p class="text-base font-semibold text-minimal-secondary dark:text-minimal-primary">MIT licensed. Runs JoYnt's agent-driven development.</p>
+          <p class="mt-4 underline text-minimal-secondaryDark hover:text-minimal-primaryLight">github.com/joyntshops/foundry</p>
         </div>
       </a>
       <!-- JoYnt -->
       <a href="https://www.joyntshops.com" target="_blank" class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full hover:shadow-lg transition-shadow">
         <div class="p-8 flex flex-col h-full">
           <h4 class="text-2xl font-bold mb-4">JoYnt</h4>
-          <p class="text-lg mb-4 flex-grow">Cannabis industry SaaS platform delivering dispensary e-commerce, kiosk, and POS solutions. The first fully functional product built on the Treez headless e-commerce API, positioned for growth as new states legalize.</p>
-          <p class="text-base font-semibold text-minimal-secondary dark:text-minimal-primary">Powering the digital infrastructure of dispensary retail.</p>
+          <p class="text-lg mb-4 flex-grow">Retail SaaS for state-licensed, highly regulated markets: e-commerce, kiosk, digital signage, and a next-generation store operating platform. The first production integration on the Treez headless e-commerce API.</p>
+          <p class="text-base font-semibold text-minimal-secondary dark:text-minimal-primary">Built by a team of AI developer agents, managed through Foundry.</p>
           <p class="mt-4 underline text-minimal-secondaryDark hover:text-minimal-primaryLight">joyntshops.com</p>
         </div>
       </a>
+      <!-- Perception Farms -->
+      <a href="https://perceptionfarms.com" target="_blank" class="flex flex-col rounded-xl border border-2 border-minimal-primary dark:border-minimal-secondaryLight h-full hover:shadow-lg transition-shadow">
+        <div class="p-8 flex flex-col h-full">
+          <h4 class="text-2xl font-bold mb-4">Perception Farms</h4>
+          <p class="text-lg mb-4 flex-grow">Vertically integrated cannabis cultivation and retail across Illinois and Minnesota. Operating a dispensary in Chicago since 2024, now building a cultivation facility and second retail location in Minnesota.</p>
+          <p class="text-base font-semibold text-minimal-secondary dark:text-minimal-primary">Licensing, compliance, and technology across two state regimes.</p>
+          <p class="mt-4 underline text-minimal-secondaryDark hover:text-minimal-primaryLight">perceptionfarms.com</p>
+        </div>
+      </a>
     </div>
-    <p class="text-lg font-semibold text-center mt-10">Interested in either venture? <a href="https://www.linkedin.com/in/waltermoore/" target="_blank" class="underline hover:text-minimal-primaryLight">Let's talk.</a></p>
+    <p class="text-lg font-semibold text-center mt-10">Want help bringing AI-driven development to your team without giving up control? <a href="https://www.linkedin.com/in/waltermoore/" target="_blank" class="underline hover:text-minimal-primaryLight">Let's talk.</a></p>
   </div>
 </section>
 
@@ -103,7 +115,7 @@ title: Walter Moore — Founder & Operator
 <section id="technical-background" class="mb-16">
   <div class="container mx-auto px-6">
     <h3 class="text-3xl font-bold text-center mb-6">Technical Foundation</h3>
-    <p class="text-lg text-center max-w-3xl mx-auto mb-4">Before founding these ventures, I spent 15 years building and shipping technology products across FinTech, AdTech, and MarTech. That technical depth drives JoYnt's product development and the operational systems behind Perception Farms.</p>
+    <p class="text-lg text-center max-w-3xl mx-auto mb-4">Before founding these ventures, I spent 15 years building and leading engineering for trading systems, Dodd-Frank regulatory reporting, and web-scale ad tech, including five years as a Director of Software Engineering at Epsilon. The charts below count the projects in my portfolio by skill, tool, and language.</p>
   </div>
 </section>
 
