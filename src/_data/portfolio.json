@@ -3,7 +3,7 @@
         "project-slug": "foundry",
         "company-slug": "joynt",
         "title": "Foundry: Governance for AI Coding Agents",
-        "image": "foundry-1.png",
+        "image": "foundry-1.webp",
         "urls": ["https://github.com/joyntshops/foundry", "https://github.com/joyntshops/foundry-demo", "https://www.npmjs.com/package/@joynt/foundry"],
         "skills": ["AI Agents", "Engineering", "Dev Ops", "Compliance", "Technical Writing", "Documentation"],
         "tools": ["Github Actions", "Claude Code", "Node", "Git"],
