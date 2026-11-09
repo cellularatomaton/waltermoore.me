@@ -1,15 +1,5 @@
 [
     {
-        "title": "Co-Founder & President",
-        "subtitle": "Perception Farms: Chicago, IL",
-        "name": "Perception Farms",
-        "location": "Chicago, IL",
-        "date": "2019 –  present",
-        "urls": ["https://www.perceptionfarms.com"],
-        "image": "perception-farms.png",
-        "slug": "pfi",
-        "description": "Perception Farms is a licensed, vertically integrating cannabis operator: a Chicago dispensary (Rogers Park, operating since 2024), a Minnesota Mezzobusiness license, a 15,000 sq ft cultivation build in Winona, and a flagship store planned in St. Paul. I own licensing, regulatory compliance, and technology across two state regimes, structured early-stage financing in an industry excluded from bank and SBA lending, and built the tracking and reporting systems behind state compliance. The group includes Perception Cannabis (the Chicago dispensary) and Perception Gardens (craft cultivation)."
-    },{
         "title": "Co-Founder, CEO & CTO",
         "subtitle": "JoYnt: Chicago, IL",
         "name": "JoYnt",
@@ -19,6 +9,16 @@
         "image": "joynt.png",
         "slug": "joynt",
         "description": "Retail SaaS for state-licensed, highly regulated markets: e-commerce, kiosk, digital signage, and a next-generation store operating platform. I run product and engineering end to end, with AI developer agents as the build team. I created Foundry, an open-source GitHub Action that turns issues into verified pull requests with human-gated merges and a full audit trail, and built the first production integration on the Treez headless e-commerce API."
+    },{
+        "title": "Co-Founder & President",
+        "subtitle": "Perception Farms: Chicago, IL",
+        "name": "Perception Farms",
+        "location": "Chicago, IL",
+        "date": "2019 –  present",
+        "urls": ["https://www.perceptionfarms.com"],
+        "image": "perception-farms.png",
+        "slug": "pfi",
+        "description": "Perception Farms is a licensed, vertically integrating cannabis operator: a Chicago dispensary (Rogers Park, operating since 2024), a Minnesota Mezzobusiness license, a 15,000 sq ft cultivation build in Winona, and a flagship store planned in St. Paul. I own licensing, regulatory compliance, and technology across two state regimes, structured early-stage financing in an industry excluded from bank and SBA lending, and built the tracking and reporting systems behind state compliance. The group includes Perception Cannabis (the Chicago dispensary) and Perception Gardens (craft cultivation)."
     },{
         "title": "Product Architect (Contract)",
         "subtitle": "SKL Trading: London, UK",
